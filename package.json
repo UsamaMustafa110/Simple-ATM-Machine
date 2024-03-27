@@ -1,6 +1,6 @@
 {
   "name": "atm-made-by-usama",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Simple ATM made by Usama Mustafa",
   "main": "index.js",
   "type": "module",

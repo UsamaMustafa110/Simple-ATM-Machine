@@ -43,19 +43,6 @@ if (pinAnswer.userPin == myPin) {
                 message: "Enter your amount",
             },
         ]);
-        // if (amount.amount == 1000) {
-        //   console.log("transaction successful");
-        //   console.log("your remaining balance is", myBalance - amount.amount);
-        // } else if (amount.amount == 2000) {
-        //   console.log("transaction successful");
-        //   console.log("your remaining balance is", myBalance - amount.amount);
-        // } else if (amount.amount == 5000) {
-        //   console.log("transaction successful");
-        //   console.log("your remaining balance is", myBalance - amount.amount);
-        // } else if (amount.amount == 10000) {
-        //   console.log("transaction successful");
-        //   console.log("your remaining balance is", myBalance - amount.amount);
-        // }
         if (amount.amount == "or-any-other-amount") {
             let anotherAmount = await inquirer.prompt([
                 {
